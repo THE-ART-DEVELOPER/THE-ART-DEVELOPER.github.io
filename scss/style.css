@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  background-color: #1F1F1F;
+}
+
+h2 {
+  font-weight: 600;
+  color: #7BBEAD;
+  margin-bottom: -20px;
+  font-family: "Jost";
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+}
+@media screen and (min-width: 250px) and (max-width: 620px) {
+  h4 {
+    font-size: 0.8rem;
+  }
+}
+
+.divMain {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.divCv {
+  width: 50%;
+  height: 100%;
+  background-color: #272727;
+  box-shadow: 0px 0px 100px 2px rgb(51, 41, 41);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Noto Sans Armenian", sans-serif;
+}
+@media screen and (max-width: 550px) {
+  .divCv {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .divCv {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+  .divCv {
+    width: 82%;
+  }
+}
+@media screen and (min-width: 1051px) and (max-width: 1199px) {
+  .divCv {
+    width: 78%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .divCv {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1590px) {
+  .divCv {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 2000px) and (max-width: 2400px) {
+  .divCv {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 2401px) and (max-width: 2560px) {
+  .divCv {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 2561px) and (max-width: 10000px) {
+  .divCv {
+    width: 27%;
+  }
+}
+
+.divHeader {
+  width: 94%;
+  height: 350px;
+  display: flex;
+}
+@media screen and (min-width: 2200px) and (max-width: 2400px) {
+  .divHeader {
+    height: 430px;
+  }
+}
+@media screen and (min-width: 2401px) and (max-width: 2560px) {
+  .divHeader {
+    height: 480px;
+  }
+}
+@media screen and (min-width: 2561px) and (max-width: 10000px) {
+  .divHeader {
+    height: 600px;
+  }
+}
+.divHeader .divPhoto {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .divPhoto {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .divPhoto {
+    width: 40%;
+  }
+}
+.divHeader .divPhoto .photo {
+  width: 140px;
+  height: 230px;
+  border-top: 1px solid #62867A;
+  border-bottom: 1px solid #62867A;
+  border-left: 2px solid #62867A;
+  border-right: 2px solid #62867A;
+  margin-bottom: -10px;
+}
+@media screen and (min-width: 2561px) and (max-width: 10000px) {
+  .divHeader .divPhoto .photo {
+    width: 200px;
+    height: 320px;
+  }
+}
+@media screen and (min-width: 2200px) and (max-width: 2400px) {
+  .divHeader .divPhoto .photo {
+    width: 160px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 2401px) and (max-width: 2560px) {
+  .divHeader .divPhoto .photo {
+    width: 180px;
+    height: 280px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .divPhoto .photo {
+    width: 100px;
+    height: 190px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .divPhoto .photo {
+    width: 80px;
+    height: 170px;
+  }
+}
+.divHeader .divPhoto h3 {
+  font-weight: 600;
+  color: #7BBEAD;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .divPhoto h3 {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .divPhoto h3 {
+    font-size: 0.6rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
+.divHeader .divPhoto div {
+  margin-bottom: -5px;
+}
+.divHeader .divPhoto div i {
+  color: white;
+  opacity: 0.5;
+  font-size: 0.7rem;
+  margin-right: 5px;
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .divPhoto div i {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .divPhoto div i {
+    font-size: 0.4rem;
+  }
+}
+.divHeader .divPhoto div span {
+  color: white;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  font-family: "Jost";
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .divPhoto div span {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .divPhoto div span {
+    font-size: 0.4rem;
+  }
+}
+.divHeader .headerText {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .headerText {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .headerText {
+    width: 75%;
+  }
+}
+.divHeader .headerText h3 {
+  margin-top: -40px;
+  font-weight: 600;
+  color: #7BBEAD;
+  margin-bottom: 0px;
+  font-family: "Jost";
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .headerText h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .headerText h3 {
+    font-size: 0.8rem;
+  }
+}
+.divHeader .headerText p {
+  color: white;
+  opacity: 0.7;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: -15px;
+}
+@media screen and (min-width: 450px) and (max-width: 620px) {
+  .divHeader .headerText p {
+    font-size: 0.6rem;
+    margin-bottom: -7px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 449px) {
+  .divHeader .headerText p {
+    font-size: 0.5rem;
+    margin-bottom: -3px;
+  }
+}
+
+.divSkils {
+  width: 94%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Jost";
+}
+.divSkils h2 {
+  margin-bottom: 5px;
+}
+
+.divSkilsItems {
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divSkilsItems div {
+  width: 98px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  color: #A8A8A8;
+  font-weight: 500;
+}
+@media screen and (min-width: 1850px) and (max-width: 1999px) {
+  .divSkilsItems div {
+    margin-right: 60px;
+  }
+}
+@media screen and (min-width: 1351px) and (max-width: 1440px) {
+  .divSkilsItems div {
+    width: 110px;
+    margin-right: 50px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .divSkilsItems div {
+    width: 80px;
+    margin-right: 30px;
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  .divSkilsItems div {
+    width: 70px;
+    margin-right: 20px;
+    font-size: 0.7rem;
+  }
+}
+.divSkilsItems div img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.divSkilsItems .bigLogo img {
+  width: 50px;
+  margin-left: -12px;
+}
+.divSkilsItems .middleLogo img {
+  width: 35px;
+  margin-left: -5px;
+}
+.divSkilsItems .midlLogo img {
+  width: 30px;
+  margin-left: -2px;
+}
+.divSkilsItems .smallLogo img {
+  width: 20px;
+  margin-left: 3px;
+}
+.divSkilsItems .smallText {
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 1351px) and (max-width: 1440px) {
+  .divSkilsItems .smallText {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .divSkilsItems .smallText {
+    width: 80px;
+    margin-right: 30px;
+    font-size: 0.6rem;
+  }
+}
+.divSkilsItems .smallText img {
+  margin-right: 5px;
+}
+
+.divLanguages {
+  width: 94%;
+  height: 250px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Jost";
+}
+
+.formLanguages {
+  width: 100%;
+  height: 42%;
+  display: flex;
+}
+.formLanguages .textLanguages {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.formLanguages .textLanguages div {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  opacity: 0.8;
+  font-weight: 400;
+}
+@media screen and (min-width: 250px) and (max-width: 550px) {
+  .formLanguages .textLanguages div {
+    font-size: 0.8rem;
+  }
+}
+.formLanguages .formLang {
+  width: 79%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 250px) and (max-width: 550px) {
+  .formLanguages .formLang {
+    width: 83%;
+  }
+}
+.formLanguages .formLang div {
+  width: 100%;
+  height: 24%;
+  border-top: 2px solid #717171;
+}
+.formLanguages .formLang div:nth-child(4) {
+  border-bottom: 2px solid #717171;
+}
+.formLanguages .formLang div:nth-child(1) {
+  display: flex;
+}
+.formLanguages .formLang div:nth-child(1) div {
+  width: 33%;
+  height: 100%;
+  border-right: 2px solid #717171;
+  border-top: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #B8B8B8;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.formLanguages .formLang div:nth-child(1) div:nth-child(3) {
+  border-right: unset;
+}
+.formLanguages .formLang div:nth-child(2), .formLanguages .formLang div:nth-child(3), .formLanguages .formLang div:nth-child(4) {
+  display: flex;
+}
+.formLanguages .formLang div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div, .formLanguages .formLang div:nth-child(4) div {
+  width: 33%;
+  height: 100%;
+  border-right: 2px solid #717171;
+  border-top: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #B8B8B8;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 250px) and (max-width: 700px) {
+  .formLanguages .formLang div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div, .formLanguages .formLang div:nth-child(4) div {
+    font-size: 0.7rem;
+  }
+}
+.formLanguages .formLang div:nth-child(2) div div, .formLanguages .formLang div:nth-child(3) div div, .formLanguages .formLang div:nth-child(4) div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5%;
+  height: 100%;
+  border-right: 2px solid #717171;
+}
+.formLanguages .formLang div:nth-child(2) div div:nth-child(2), .formLanguages .formLang div:nth-child(3) div div:nth-child(2), .formLanguages .formLang div:nth-child(4) div div:nth-child(2) {
+  border-right: unset;
+}
+.formLanguages .formLang div:nth-child(2) div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+  font-size: 0.7rem;
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .formLanguages .formLang div:nth-child(2) div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+    font-size: 0.59rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 899px) {
+  .formLanguages .formLang div:nth-child(2) div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 549px) {
+  .formLanguages .formLang div:nth-child(2) div:nth-child(2) div, .formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+    font-size: 0.4rem;
+  }
+}
+.formLanguages .formLang div:nth-child(2) div:nth-child(3), .formLanguages .formLang div:nth-child(3) div:nth-child(3), .formLanguages .formLang div:nth-child(4) div:nth-child(3) {
+  border-right: unset;
+}
+.formLanguages .formLang div:nth-child(3) div, .formLanguages .formLang div:nth-child(4) div {
+  width: 33.3%;
+  border-right: unset;
+  border-top: unset;
+}
+.formLanguages .formLang div:nth-child(3) div div, .formLanguages .formLang div:nth-child(4) div div {
+  border-right: unset;
+}
+.formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 250px) and (max-width: 700px) {
+  .formLanguages .formLang div:nth-child(3) div:nth-child(2) div, .formLanguages .formLang div:nth-child(4) div:nth-child(2) div {
+    font-size: 0.7rem;
+  }
+}
+
+.divEducation {
+  width: 94%;
+  height: 220px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 250px) and (max-width: 550px) {
+  .divEducation {
+    height: 140px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .divEducation {
+    height: 180px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .divEducation {
+    height: 200px;
+  }
+}
+
+.formEducation {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.formEducation .listEducation {
+  width: 100%;
+  height: 49%;
+  border-bottom: 2px solid #67837A;
+  display: flex;
+}
+.formEducation .listEducation div {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #c7c4c4;
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .formEducation .listEducation div {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 549px) {
+  .formEducation .listEducation div {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 449px) {
+  .formEducation .listEducation div {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 389px) {
+  .formEducation .listEducation div {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 340px) {
+  .formEducation .listEducation div {
+    font-size: 0.5rem;
+  }
+}
+.formEducation .listEducation div:nth-child(1) {
+  justify-content: start;
+}
+.formEducation .listEducation div:nth-child(3) {
+  justify-content: flex-end;
+}
+.formEducation .listEducation div:nth-child(2) {
+  flex-direction: column;
+}
+.formEducation .listEducation div:nth-child(2) div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.68rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 549px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.55rem;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 449px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 389px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.45rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  .formEducation .listEducation div:nth-child(2) div {
+    font-size: 0.4rem;
+  }
+}
+.formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+  justify-content: start;
+  font-size: 0.77rem;
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.52rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 549px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.44rem;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 449px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.38rem;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 389px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.34rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  .formEducation .listEducation div:nth-child(2) div:nth-child(2) {
+    font-size: 0.29rem;
+  }
+}
+.formEducation .listEducation:nth-child(1) div {
+  color: white;
+}
+
+.divProjects {
+  width: 94%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .divProjects {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .divProjects {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 499px) {
+  .divProjects {
+    height: 380px;
+  }
+}
+
+.blockProjets {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Jost";
+}
+.blockProjets div {
+  width: 30%;
+  height: 220px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #7BBEAD;
+  font-weight: 600;
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .blockProjets div {
+    font-size: 1.3rem;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .blockProjets div {
+    font-size: 1rem;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 399px) {
+  .blockProjets div {
+    font-size: 0.8rem;
+    height: 100px;
+  }
+}
+.blockProjets div a {
+  margin-top: 33px;
+}
+.blockProjets div img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
